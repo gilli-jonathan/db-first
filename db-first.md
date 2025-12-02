@@ -5,11 +5,11 @@ auto-usate
 
 - ID big pk ai -not null
 
-- DATA INSERZIONE date -not null
+- DATA_INSERZIONE date -not null
 
 - MARCA varchar(20) -not null
 - MODELLO varchar(20) -not null
-- ANNO DI FABBRICAZIONE year -not null
+- ANNO_DI_FABBRICAZIONE year -not null
 - COLORE varchar(10) -not null
 - TARGA varchar(10) - null unique
 - MOTORE varrchar(30) - null
@@ -17,6 +17,9 @@ auto-usate
 - KILOMETRAGGIO int -not null
 - CARBURANTE varchar(10) -not null
 - RIVENDITORE varchar(30) -not null
-- DATA ULTIMA REVISIONE date - null
-- 
+- DATA_ULTIMA_REVISIONE date - null
+
+<!-- AGGIUNTO IL PREZZO HAHAH -->
+- PREZZO decimal(8,2) -not null
+
 
